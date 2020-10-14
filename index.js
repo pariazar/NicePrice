@@ -2,8 +2,14 @@
 const app = require('express')();
 const routes = require('./routes');
 var cron = require('node-cron');
-
+const rateLimit = require("express-rate-limit");
+const limiter = rateLimit({
+  windowMs: 15 * 60 * 1000, // 15 minutes
+  max: 100 // limit each IP to 100 requests per windowMs
+});
+ 
 const PORT = process.env.PORT || 3000;
+app.use(limiter);
 
 //  Connect all our routes to our application
 app.use('/', routes);
