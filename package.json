@@ -1,0 +1,35 @@
+{
+  "name": "nice_price",
+  "version": "1.0.0",
+  "description": "Get price of get price of digital currency\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hamedpa/NicePrice.git"
+  },
+  "keywords": [
+    "Nice",
+    "Price",
+    "api",
+    "for",
+    "price",
+    "price",
+    "api"
+  ],
+  "author": "Hamed Pariazar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hamedpa/NicePrice/issues"
+  },
+  "homepage": "https://github.com/hamedpa/NicePrice#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "node-cron": "^2.0.3",
+    "python-shell": "^2.0.2",
+    "requests": "^0.3.0"
+  }
+}

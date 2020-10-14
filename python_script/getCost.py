@@ -1,7 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
 import json
-
 def main():
     listCurrencies = []
     #list of datas
@@ -38,7 +37,7 @@ def main():
                         sep = 0
                     
 
-    with open('digital_currencies.json', 'w') as outfile:
+    with open('./digital_currencies.json', 'w') as outfile:
         json.dump(data, outfile)
 
 
