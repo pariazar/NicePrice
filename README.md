@@ -48,7 +48,7 @@ API and telegram bot for retrieving price of digital currencies and metals
              "value proposition":"Digital gold"
           },
           
-<p>if you looking for specific digital currency information  you will need to enter asset like bellow address</p>
+<p>if you looking for specific digital currency information then you will need to enter asset like bellow address</p>
     
       http://localhost:3000/digital_currencies/ETH
       
@@ -67,3 +67,11 @@ API and telegram bot for retrieving price of digital currencies and metals
         }
       }
     
+
+<h1>Telegram BOT</h1>
+
+<p>for running telegram bot first make ready telegram bot token from fatherbot in telegram application
+  
+  then you should run telegram_bot1.py in telegram_bot directory/folder with blow command</p>
+    
+       python telegram_bot1.py
